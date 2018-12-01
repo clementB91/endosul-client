@@ -3,7 +3,10 @@ module.exports = {
     "env": {
     	"browser":true,
     	"jest":true,
-    	"fetch":true,
-    	"localStorage":true
+	    "serviceworker": true
+	},
+	"globals": {
+        "localStorage": true,
+        "fetch": true
     }
 };
